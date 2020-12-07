@@ -21,9 +21,9 @@ function Footer() {
   return (
     <footer data-testid="footer" className="footer-container">
       <section className="footer-icons">
-        { linkElement(drinkIncon, 'drinks-bottom-btn', '/app-receitas/bebidas') }
-        { linkElement(exploreIcon, 'explore-bottom-btn', '/app-receitas/explorar') }
-        { linkElement(mealIcon, 'food-bottom-btn', '/app-receitas/comidas') }
+        { linkElement(drinkIncon, 'drinks-bottom-btn', '/bebidas') }
+        { linkElement(exploreIcon, 'explore-bottom-btn', '/explorar') }
+        { linkElement(mealIcon, 'food-bottom-btn', '/comidas') }
       </section>
     </footer>
   );

@@ -31,14 +31,14 @@ function ExplorarComidas() {
       <section className="explorar-body">
         <Link
           data-testid="explore-by-ingredient"
-          to="/app-receitas/explorar/comidas/ingredientes"
+          to="/explorar/comidas/ingredientes"
           className="explorar-comidas-link"
         >
           Por Ingredientes
         </Link>
         <Link
           data-testid="explore-by-area"
-          to="/app-receitas/explorar/comidas/area"
+          to="/explorar/comidas/area"
           className="explorar-comidas-link"
         >
           Por Local de Origem
@@ -47,7 +47,7 @@ function ExplorarComidas() {
           ? (
             <Link
               data-testid="explore-surprise"
-              to={ `/app-receitas/comidas/${randomId}` }
+              to={ `/comidas/${randomId}` }
               className="explorar-comidas-link"
             >
               Me Surpreenda!

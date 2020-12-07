@@ -16,7 +16,7 @@ function Header({ requestAPI }) {
   }
 
   const profileIcon = (
-    <Link to="/app-receitas/perfil">
+    <Link to="/perfil">
       <img data-testid="profile-top-btn" src={ profile } alt="" />
     </Link>
   );

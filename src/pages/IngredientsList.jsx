@@ -65,10 +65,7 @@ function IngredientsList({ recipe, type }) {
       </section>
       {!isDone
       && (
-        <Link
-          className="detalhes-btn-link"
-          to={ `/app-receitas/${urlByType}/${id}/in-progress` }
-        >
+        <Link className="detalhes-btn-link" to={ `/${urlByType}/${id}/in-progress` }>
           <button
             type="button"
             data-testid="start-recipe-btn"

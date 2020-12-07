@@ -146,7 +146,7 @@ function ListaIngredientesEmProgresso({ recipe, type }) {
           <div>
             {list
             && (
-              <Link className="detalhes-btn-link" to="/app-receitas/receitas-feitas">
+              <Link className="detalhes-btn-link" to="/receitas-feitas">
                 <button
                   className="detalhes-new-recipe-btn"
                   data-testid="finish-recipe-btn"
@@ -158,7 +158,7 @@ function ListaIngredientesEmProgresso({ recipe, type }) {
                 </button>
               </Link>
             )}
-            <Link className="detalhes-btn-link" to={ `/app-receitas/${urlByType}` }>
+            <Link className="detalhes-btn-link" to={ `/${urlByType}` }>
               <span className="detalhes-save-recipe-btn">Salvar Para Mais Tarde</span>
             </Link>
           </div>

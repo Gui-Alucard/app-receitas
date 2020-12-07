@@ -6,7 +6,7 @@ function Card({ imagePath, itemName, id, itemType, indexId, cardType }) {
   return (
     <div data-testid={ `${indexId}-${cardType}-card` } className="card-container">
       <div className="card-datails">
-        <Link className="card-details-link" to={ `/app-receitas/${itemType}/${id}` }>
+        <Link className="card-details-link" to={ `/${itemType}/${id}` }>
           <img
             data-testid={ `${indexId}-card-img` }
             alt="recipe cover"

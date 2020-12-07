@@ -114,7 +114,7 @@ function BebidaEmProgresso({ match }) {
                 <p data-testid="instructions">{drink.strInstructions}</p>
               </section>
             </article>
-            <Link className="card-details-link" to="/app-receitas/bebidas">
+            <Link className="card-details-link" to="/bebidas">
               <button
                 className="detalhes-new-recipe-btn"
                 data-testid="finish-recipe-btn"

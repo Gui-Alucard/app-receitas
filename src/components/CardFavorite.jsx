@@ -49,7 +49,7 @@ function Card({ imagePath, itemName, id, itemType, titlePage, pageType,
   return (
     <div data-testid={ `${indexId}-${cardType}-card` } className="card-container">
       <div className="card-datails">
-        <Link className="card-details-link" to={ `/app-receitas/${itemType}/${id}` }>
+        <Link className="card-details-link" to={ `/${itemType}/${id}` }>
           <div className="card-info">
             <h4
               data-testid={ `${indexId}-${cardType}-name` }

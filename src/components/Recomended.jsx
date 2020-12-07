@@ -39,10 +39,7 @@ function Recomended({ itemType }) {
         className="recomended-list"
       >
         <div className="recomended-datails">
-          <Link
-            className="recomended-details-link"
-            to={ `/app-receitas/${itemType}/${id}` }
-          >
+          <Link className="recomended-details-link" to={ `/${itemType}/${id}` }>
             <div className="recomended-img-body">
               <img
                 data-testid={ `${indexId}-card-img` }
