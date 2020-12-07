@@ -31,7 +31,7 @@ function ExplorarBebidas() {
       <section className="explorar-body">
         <Link
           data-testid="explore-by-ingredient"
-          to="/explorar/bebidas/ingredientes"
+          to="/app-receitas/explorar/bebidas/ingredientes"
           className="explorar-bebidas-link"
         >
           Por Ingredientes
@@ -40,7 +40,7 @@ function ExplorarBebidas() {
           ? (
             <Link
               data-testid="explore-surprise"
-              to={ `/bebidas/${randomId}` }
+              to={ `/app-receitas/bebidas/${randomId}` }
               className="explorar-bebidas-link"
             >
               Me Surpreenda!

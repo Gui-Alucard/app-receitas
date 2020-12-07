@@ -53,7 +53,7 @@ function Comidas({ history }) {
           requestAPI={ async () => {
             const response = await fetchFood(searchType, searchInput);
             if (response && response.length === 1) {
-              history.push(`/comidas/${response[0].idMeal}`);
+              history.push(`/app-receitas/comidas/${response[0].idMeal}`);
             }
             if (response) {
               setRecipesMeals(response);

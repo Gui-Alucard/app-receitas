@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
 import React, { useContext, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import propTypes from 'prop-types';
 import ReceitasContext from '../context/ReceitasContext';
 import Header from '../components/Header';
@@ -26,14 +26,14 @@ function Explorar({ requestAPI }) {
         <Link
           className="explorar-comidas-link"
           data-testid="explore-food"
-          to="/explorar/comidas"
+          to="/app-receitas/explorar/comidas"
         >
           Explorar Comidas
         </Link>
         <Link
           className="explorar-bebidas-link"
           data-testid="explore-drinks"
-          to="/explorar/bebidas"
+          to="/app-receitas/explorar/bebidas"
         >
           Explorar Bebidas
         </Link>

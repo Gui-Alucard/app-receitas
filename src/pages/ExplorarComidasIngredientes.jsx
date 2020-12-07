@@ -43,7 +43,7 @@ function ExplorarComidasIngredientes() {
                     <div className="recomended-datails-ingredient">
                       <Link
                         className="recomended-details-link"
-                        to="/comidas"
+                        to="/app-receitas/comidas"
                         onClick={ () => setFilterIngredient(meal.strIngredient) }
                       >
                         <div className="recomended-img-body">

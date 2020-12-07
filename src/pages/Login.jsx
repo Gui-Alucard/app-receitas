@@ -11,7 +11,7 @@ function Login({ history }) {
     localStorage.setItem('user', JSON.stringify({ email }));
     localStorage.setItem('mealsToken', 1);
     localStorage.setItem('cocktailsToken', 1);
-    history.push('/comidas');
+    history.push('/app-receitas/comidas');
     setEnable(false);
   }
 
@@ -59,7 +59,7 @@ function Login({ history }) {
 }
 
 Login.defaultProps = {
-  history: '/',
+  history: '/app-receitas/',
 };
 
 Login.propTypes = {

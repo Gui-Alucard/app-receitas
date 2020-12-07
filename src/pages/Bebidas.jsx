@@ -54,7 +54,7 @@ function Bebidas({ history }) {
           requestAPI={ async () => {
             const response = await fetchDrink(searchType, searchInput);
             if (response && response.length === 1) {
-              history.push(`/bebidas/${response[0].idDrink}`);
+              history.push(`/app-receitas/bebidas/${response[0].idDrink}`);
             }
             if (response) {
               setRecipesDrinks(response);

@@ -26,59 +26,41 @@ function App() {
   return (
     <ReceitasProvider>
       <Switch>
-        <Route exact path="/app-receitas/" component={ Login } />
-        <Route exact path="/comidas" component={ Comidas } />
-        <Route exact path="/bebidas" component={ Bebidas } />
-        <Route exact path="/comidas/:id" component={ ReceitaDetalhada } />
-        <Route exact path="/bebidas/:id" component={ ReceitaDetalhada } />
         <Route
-          exact
-          path="/bebidas/:id/in-progress"
+          path="/app-receitas/bebidas/:id/in-progress"
           component={ ReceitaEmProgresso }
         />
         <Route
-          exact
-          path="/comidas/:id/in-progress"
+          path="/app-receitas/comidas/:id/in-progress"
           component={ ReceitaEmProgresso }
         />
+        <Route path="/app-receitas/comidas/:id" component={ ReceitaDetalhada } />
+        <Route path="/app-receitas/bebidas/:id" component={ ReceitaDetalhada } />
+        <Route path="/app-receitas/comidas" component={ Comidas } />
+        <Route path="/app-receitas/bebidas" component={ Bebidas } />
         <Route
-          exact
-          path="/explorar/comidas"
-          component={ ExplorarComidas }
-        />
-        <Route
-          exact
-          path="/explorar/bebidas"
-          component={ ExplorarBebidas }
-        />
-        <Route
-          exact
-          path="/explorar/comidas/ingredientes"
+          path="/app-receitas/explorar/comidas/ingredientes"
           component={ ExplorarComidasIngredientes }
         />
         <Route
-          exact
-          path="/explorar/bebidas/ingredientes"
+          path="/app-receitas/explorar/bebidas/ingredientes"
           component={ ExplorarBebidasIngredientes }
         />
         <Route
-          exact
-          path="/explorar/comidas/area"
+          path="/app-receitas/explorar/comidas/area"
           component={ ExplorarComidasPorLocalOrigem }
         />
         <Route
-          exact
-          path="/explorar/bebidas/area"
+          path="/app-receitas/explorar/bebidas/area"
           component={ NotFound }
         />
-        <Route
-          exact
-          path="/receitas-favoritas"
-          component={ ReceitasFavoritas }
-        />
-        <Route exact path="/receitas-feitas" component={ ReceitasFeitas } />
-        <Route exact path="/perfil" component={ Perfil } />
-        <Route exact path="/explorar" component={ Explorar } />
+        <Route path="/app-receitas/receitas-feitas" component={ ReceitasFeitas } />
+        <Route path="/app-receitas/receitas-favoritas" component={ ReceitasFavoritas } />
+        <Route path="/app-receitas/perfil" component={ Perfil } />
+        <Route path="/app-receitas/explorar/comidas" component={ ExplorarComidas } />
+        <Route path="/app-receitas/explorar/bebidas" component={ ExplorarBebidas } />
+        <Route path="/app-receitas/explorar" component={ Explorar } />
+        <Route exact path="/app-receitas/" component={ Login } />
       </Switch>
     </ReceitasProvider>
   );

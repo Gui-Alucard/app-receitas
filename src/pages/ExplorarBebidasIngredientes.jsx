@@ -43,7 +43,7 @@ function ExplorarBebidasIngredientes() {
                     <div className="recomended-datails-ingredient">
                       <Link
                         className="recomended-details-link"
-                        to="/bebidas"
+                        to="/app-receitas/bebidas"
                         onClick={ () => setFilterIngredient(drink.strIngredient1) }
                       >
                         <div className="recomended-img-body">
