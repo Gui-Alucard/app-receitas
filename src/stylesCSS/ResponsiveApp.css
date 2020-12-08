@@ -23,7 +23,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 10px 0 80px;
+    margin: 30px 0 40px;
+    padding-top: 30px;
   }
 
   .searchBar-container {
@@ -58,6 +59,7 @@
   }
 
   .searchBar-radios {
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -73,7 +75,7 @@
     box-shadow: 1px 2px 2px #558c8cb3;
     color: #eff7ffff;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     margin: 4px 0;
     outline: none;
@@ -125,16 +127,16 @@
     box-shadow: 1px 2px 2px #558c8cb3;
     color: #eff7ffff;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     margin: 4px 0;
     outline: none;
-    padding: 5px 0 7px 4px;
+    padding: 5px 0 7px 8px;
     text-shadow: 
     /* horizontal-shadow vertical-shadow color; */
     -1px 0px #ff6d3aff,
     -1px 1px #ff6d3aff;
-    width: 132px;
+    width: 137px;
   }
 
   .searchBar-buscar:hover {
@@ -148,6 +150,32 @@
     box-shadow: 1px 2px 2px #558c8cb3;
     color: #eff7ffff;
     cursor: default;
-    padding: 5px 0 7px 4px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 4px;
+    outline: none;
+    padding: 5px 0 7px 8px;
+    width: 137px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .category-container {
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 0 40px;
+    padding-top: 120px;
+  }
+
+  .searchBar-radios {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    max-height: 50%;
   }
 }
