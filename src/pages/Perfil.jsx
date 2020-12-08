@@ -49,7 +49,7 @@ function PagePerfil() {
               Receitas Feitas
             </button>
           </Link>
-          <Link className="profile-link" to="/app-receitas/">
+          <Link className="profile-link" to="/">
             <button
               data-testid="profile-logout-btn"
               type="button"
