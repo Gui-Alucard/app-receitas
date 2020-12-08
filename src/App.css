@@ -144,6 +144,7 @@ h1, h2, h3, h4 {
   font-size: 14px;
   font-weight: bold;
   outline: none;
+  padding: 5px 0 7px 4px;
   text-shadow: 
   /* horizontal-shadow vertical-shadow color; */
   -1px 0px #ff6d3aff,
