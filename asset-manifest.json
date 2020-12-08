@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/app-receitas/static/css/main.28728560.chunk.css",
-    "main.js": "/app-receitas/static/js/main.46205deb.chunk.js",
-    "main.js.map": "/app-receitas/static/js/main.46205deb.chunk.js.map",
+    "main.css": "/app-receitas/static/css/main.4b49484f.chunk.css",
+    "main.js": "/app-receitas/static/js/main.4db548ea.chunk.js",
+    "main.js.map": "/app-receitas/static/js/main.4db548ea.chunk.js.map",
     "runtime-main.js": "/app-receitas/static/js/runtime-main.0f6d492e.js",
     "runtime-main.js.map": "/app-receitas/static/js/runtime-main.0f6d492e.js.map",
     "static/js/2.c8834c9d.chunk.js": "/app-receitas/static/js/2.c8834c9d.chunk.js",
     "static/js/2.c8834c9d.chunk.js.map": "/app-receitas/static/js/2.c8834c9d.chunk.js.map",
     "index.html": "/app-receitas/index.html",
-    "precache-manifest.955f93fa0b87fedde3b6f1c9daa5d38b.js": "/app-receitas/precache-manifest.955f93fa0b87fedde3b6f1c9daa5d38b.js",
+    "precache-manifest.8ad9de48c2152dfb7a4cc57331a762cd.js": "/app-receitas/precache-manifest.8ad9de48c2152dfb7a4cc57331a762cd.js",
     "service-worker.js": "/app-receitas/service-worker.js",
-    "static/css/main.28728560.chunk.css.map": "/app-receitas/static/css/main.28728560.chunk.css.map",
+    "static/css/main.4b49484f.chunk.css.map": "/app-receitas/static/css/main.4b49484f.chunk.css.map",
     "static/js/2.c8834c9d.chunk.js.LICENSE.txt": "/app-receitas/static/js/2.c8834c9d.chunk.js.LICENSE.txt",
     "static/media/blackHeartIcon.svg": "/app-receitas/static/media/blackHeartIcon.b8913346.svg",
     "static/media/Login.css": "/app-receitas/static/media/clipart-cookies-cooking-7-original.c48f87a1.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.0f6d492e.js",
     "static/js/2.c8834c9d.chunk.js",
-    "static/css/main.28728560.chunk.css",
-    "static/js/main.46205deb.chunk.js"
+    "static/css/main.4b49484f.chunk.css",
+    "static/js/main.4db548ea.chunk.js"
   ]
 }
