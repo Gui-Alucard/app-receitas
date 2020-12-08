@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70aa0d64043fdf2f27dec8a2c08ba45e",
+    "revision": "0f141857f7ef7d7c51ea67786ab1d1ad",
     "url": "/app-receitas/index.html"
   },
   {
-    "revision": "28ce533df105a7670d91",
+    "revision": "54a8e9e27340f747d002",
     "url": "/app-receitas/static/css/main.b2c7efdb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/app-receitas/static/js/2.c8834c9d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "28ce533df105a7670d91",
-    "url": "/app-receitas/static/js/main.4db548ea.chunk.js"
+    "revision": "54a8e9e27340f747d002",
+    "url": "/app-receitas/static/js/main.78e21279.chunk.js"
   },
   {
     "revision": "f0cd473e09855cc953e0",
