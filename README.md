@@ -1,91 +1,3 @@
-# Bem vindo ao app [***Zé Receitas***](https://gui-alucard.github.io/app-receitas/#/)
-
-A aplicação batizada como Zé Receitas é fruto de um projeto de desenvolvimento do modulo de front-end do curso da Trybe.
-
-O objetivo do projeto foi desenvolver uma aplicação com foco em mobile, onde a partir do consumo de duas APIs, o app oferece ao usuário uma ferramenta de busca de receitas de bebidas e comidas, além de outras funcionalidades.
-
-Acesse o app Zé Receitas pelo link:
-
-https://gui-alucard.github.io/app-receitas/#/
-
-## Principais elementos
-
-O projeto foi composto dos seguintes elementos:
-
-- Login
-- Footer
-- Header
-- Perfil
-- Galeria de Receitas
-- Barra de buscar
-- Filtros de busca
-- Lista de receitas favoritas (wish list)
-- Lista de receitas já preparadas
-- Checklist de ingredientes (to do list)
-
-## Objetivo técnico
-
-Tecnicamente, objetivou-se a construção da aplicação web em React usando as mais modernas funcionalidades da tecnologia como:
-
-- Context API
-- React Hook useState
-- React Hook useContext
-- React Hook useEffect
-- Hooks customizados
-
-## Bibliotecas utilizadas
-
-- React
-- React Router DOM
-- GitHub Pages
-- Clipboard Copy
-- Prop Types
-- Jest
-- Cypress
-- Eslint
-
-## Metodologias utilizadas
-
-- Kanban
-- Scrum
-
-## Ferramentas de desenvolvimento
-
-- Git e GitHub para versionamento
-- Trello para gestão do projetos
-- Zoom para reuniões síncronas
-- Slack para comunicação assíncrona
-- VSCode como editor
-
-## Conclusão
-
-O projeto foi concluído com 98.85% de cumprimento dos requisitos, tendo como principais aprendizados a colaboração e a importância da utilização das metodologias ágeis na construção de um projeto em equipe. O projeto foi desenvolvido por um grupo de 3 desenvolvedores ao longo de 10 dias.
-
-Ao final do projeto houve apresentação para banca avaliadora onde foram apontados alguns pontos positivos e negativos a melhorar no projeto.
-
-### Pontos positivos
-
-- Fluidez e maturidade da aplicação
-- Deploy usando GitHub Pages
-- Validação da perfomance através do PageSpeed Insights
-
-### Pontos a melhorar
-
-- Contraste de cores em botões pensando na usabilidade
-
-## Desenvolvedores
-
-- Guilherme Silva ([perfil](https://github.com/Gui-Alucard))
-- Paulo Afonso Volpin ([perfil](https://github.com/pa-volpin))
-- William Gomes ([perfil](https://github.com/williamjog))
-
-## Repositório base do projeto (Trybe)
-
-https://github.com/tryber/sd-06-project-recipes-app
-
-<details>
-<summary>README OFICIAL DA TRYBE</summary></br>
-
 Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
 
 # Boas vindas ao repositório do projeto de Receitas!
@@ -1395,8 +1307,8 @@ Obs: se a opção escolhida for explorar bebidas, o botão para explorar por loc
 
   **Observações técnicas**
 
-  * Ao clicar no botão "Por Ingredientes" da tela de *explorar comidas* a rota muda para a página de detalhes de uma comida aleatória obtida através do endpoint `https://www.themealdb.com/api/json/v1/1/random.php`;
-  * Ao clicar no botão "Por Ingredientes" da tela de *explorar bebidas* a rota muda para a página de detalhes de uma bebida aleatória obtida através do endpoint `https://www.thecocktaildb.com/api/json/v1/1/random.php`.
+  * Ao clicar no botão "Me Surpreenda!" da tela de *explorar comidas* a rota muda para a página de detalhes de uma comida aleatória obtida através do endpoint `https://www.themealdb.com/api/json/v1/1/random.php`;
+  * Ao clicar no botão "Me Surpreenda!" da tela de *explorar bebidas* a rota muda para a página de detalhes de uma bebida aleatória obtida através do endpoint `https://www.thecocktaildb.com/api/json/v1/1/random.php`.
 
 ## Tela de explorar ingredientes
 
@@ -1557,4 +1469,3 @@ Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/Z
 O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
 
 ---
-</details>
