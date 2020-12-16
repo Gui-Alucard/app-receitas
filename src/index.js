@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter, BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const toDeploy = false;
-const appWithRoute = (toDeploy)
-  ? <HashRouter><App /></HashRouter>
-  : <BrowserRouter><App /></BrowserRouter>;
-
 ReactDOM.render(
-  appWithRoute,
+  <HashRouter>
+    <App />
+  </HashRouter>,
   document.getElementById('root'),
 );
 
