@@ -4,7 +4,7 @@ import copy from 'clipboard-copy';
 const CopyToClipBoard = (reset = null) => {
   const [copied, setCopied] = useState(false);
   const setClipboard = (pathname) => {
-    copy(`https://gui-alucard.github.io/app-receitas/#${pathname}`);
+    copy(`http://localhost:3000${pathname}`);
     setCopied(true);
   };
   useEffect(() => {
