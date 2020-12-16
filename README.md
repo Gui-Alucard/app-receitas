@@ -1,4 +1,4 @@
-# Bem vindo ao app [***Zé Receitas***](https://pa-volpin.github.io/app-receitas/#/)
+# Bem vindo ao app [***Zé Receitas***](https://gui-alucard.github.io/app-receitas/#/)
 
 A aplicação batizada como Zé Receitas é fruto de um projeto de desenvolvimento do modulo de front-end do curso da Trybe.
 
@@ -6,7 +6,7 @@ O objetivo do projeto foi desenvolver uma aplicação com foco em mobile, onde a
 
 Acesse o app Zé Receitas pelo link:
 
-https://pa-volpin.github.io/app-receitas/#/
+https://gui-alucard.github.io/app-receitas/#/
 
 ## Principais elementos
 
