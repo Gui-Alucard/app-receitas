@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37163a820593e09019807a2b6c1d09f2",
+    "revision": "26ab495a639cf800879a8dbc27f38702",
     "url": "/app-receitas/index.html"
   },
   {
-    "revision": "44450daf222997a47b75",
-    "url": "/app-receitas/static/css/main.7275702f.chunk.css"
+    "revision": "1a20a3ea50dc3f0d6ae3",
+    "url": "/app-receitas/static/css/main.f206d7ae.chunk.css"
   },
   {
     "revision": "a8aabd4c3c743c721a69",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/app-receitas/static/js/2.1fb96b02.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "44450daf222997a47b75",
-    "url": "/app-receitas/static/js/main.7dced792.chunk.js"
+    "revision": "1a20a3ea50dc3f0d6ae3",
+    "url": "/app-receitas/static/js/main.6980622e.chunk.js"
   },
   {
     "revision": "f0cd473e09855cc953e0",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c48f87a199c2b3fdbe2bda36a4b15f4e",
     "url": "/app-receitas/static/media/chef.c48f87a1.png"
+  },
+  {
+    "revision": "c48f87a199c2b3fdbe2bda36a4b15f4e",
+    "url": "/app-receitas/static/media/clipart-cookies-cooking-7-original.c48f87a1.png"
   },
   {
     "revision": "d0fdc0c743825bc29585383c5cc34551",

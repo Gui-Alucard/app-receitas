@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/app-receitas/static/css/main.7275702f.chunk.css",
-    "main.js": "/app-receitas/static/js/main.7dced792.chunk.js",
-    "main.js.map": "/app-receitas/static/js/main.7dced792.chunk.js.map",
+    "main.css": "/app-receitas/static/css/main.f206d7ae.chunk.css",
+    "main.js": "/app-receitas/static/js/main.6980622e.chunk.js",
+    "main.js.map": "/app-receitas/static/js/main.6980622e.chunk.js.map",
     "runtime-main.js": "/app-receitas/static/js/runtime-main.0f6d492e.js",
     "runtime-main.js.map": "/app-receitas/static/js/runtime-main.0f6d492e.js.map",
     "static/js/2.1fb96b02.chunk.js": "/app-receitas/static/js/2.1fb96b02.chunk.js",
     "static/js/2.1fb96b02.chunk.js.map": "/app-receitas/static/js/2.1fb96b02.chunk.js.map",
     "index.html": "/app-receitas/index.html",
-    "precache-manifest.dddf364612aa8514b256beaa951711b5.js": "/app-receitas/precache-manifest.dddf364612aa8514b256beaa951711b5.js",
+    "precache-manifest.aad291f4cac1115f63b6005f1cb8136b.js": "/app-receitas/precache-manifest.aad291f4cac1115f63b6005f1cb8136b.js",
     "service-worker.js": "/app-receitas/service-worker.js",
-    "static/css/main.7275702f.chunk.css.map": "/app-receitas/static/css/main.7275702f.chunk.css.map",
+    "static/css/main.f206d7ae.chunk.css.map": "/app-receitas/static/css/main.f206d7ae.chunk.css.map",
     "static/js/2.1fb96b02.chunk.js.LICENSE.txt": "/app-receitas/static/js/2.1fb96b02.chunk.js.LICENSE.txt",
     "static/media/blackHeartIcon.svg": "/app-receitas/static/media/blackHeartIcon.b8913346.svg",
-    "static/media/Login.css": "/app-receitas/static/media/chef.c48f87a1.png",
+    "static/media/chef.png": "/app-receitas/static/media/chef.c48f87a1.png",
+    "static/media/Login.css": "/app-receitas/static/media/clipart-cookies-cooking-7-original.c48f87a1.png",
     "static/media/cook.jpg": "/app-receitas/static/media/cook.d0fdc0c7.jpg",
     "static/media/drinkIcon.svg": "/app-receitas/static/media/drinkIcon.f87c47c3.svg",
     "static/media/exploreIcon.svg": "/app-receitas/static/media/exploreIcon.157945ff.svg",
@@ -28,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.0f6d492e.js",
     "static/js/2.1fb96b02.chunk.js",
-    "static/css/main.7275702f.chunk.css",
-    "static/js/main.7dced792.chunk.js"
+    "static/css/main.f206d7ae.chunk.css",
+    "static/js/main.6980622e.chunk.js"
   ]
 }
